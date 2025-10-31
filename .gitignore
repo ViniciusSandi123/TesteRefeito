@@ -1,0 +1,33 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build
+bin/
+obj/
+
+# Rider/IDEA
+.idea/
+*.iml
+
+# ASP.NET / WebAPI
+appsettings*.json
+
+# Docker
+docker-compose.override.yml
+*.dockerfile
+*.env
+
+# Logs / Temp
+*.log
+*.tmp
+
+# SQL Server LocalDB
+*.mdf
+*.ldf
+
+# Nuvem / arquivos pessoais
+*.sqlite
