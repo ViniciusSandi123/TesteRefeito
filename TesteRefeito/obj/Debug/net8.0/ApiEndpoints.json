@@ -1,0 +1,318 @@
+[
+  {
+    "ContainingType": "TesteRefeito.Controllers.AvaliacoesController",
+    "Method": "ConsultarTodasAvalicoes",
+    "RelativePath": "api/Avaliacoes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteRefeito.Controllers.AvaliacoesController",
+    "Method": "CriarAvaliacao",
+    "RelativePath": "api/Avaliacoes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "avaliacaoDTO",
+        "Type": "TesteRefeito.DTOs.AvaliacaoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteRefeito.Controllers.AvaliacoesController",
+    "Method": "ConsultarAvaliacaoPorId",
+    "RelativePath": "api/Avaliacoes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteRefeito.Controllers.AvaliacoesController",
+    "Method": "EditarAvaliacao",
+    "RelativePath": "api/Avaliacoes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "avaliacaoDTO",
+        "Type": "TesteRefeito.DTOs.AvaliacaoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteRefeito.Controllers.AvaliacoesController",
+    "Method": "Delete",
+    "RelativePath": "api/Avaliacoes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteRefeito.Controllers.FilmesController",
+    "Method": "ListarTodosFilmes",
+    "RelativePath": "api/Filmes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteRefeito.Controllers.FilmesController",
+    "Method": "CadastrarFilme",
+    "RelativePath": "api/Filmes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filmeDTO",
+        "Type": "TesteRefeito.DTOs.FilmeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteRefeito.Controllers.FilmesController",
+    "Method": "ListarFilmePorId",
+    "RelativePath": "api/Filmes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteRefeito.Controllers.FilmesController",
+    "Method": "EditarFilme",
+    "RelativePath": "api/Filmes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "filmeDTO",
+        "Type": "TesteRefeito.DTOs.FilmeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteRefeito.Controllers.FilmesController",
+    "Method": "ExcluirFilme",
+    "RelativePath": "api/Filmes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteRefeito.Controllers.GenerosController",
+    "Method": "ObterTodosGeneros",
+    "RelativePath": "api/Generos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteRefeito.Controllers.GenerosController",
+    "Method": "CriaGenero",
+    "RelativePath": "api/Generos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "generoDTO",
+        "Type": "TesteRefeito.DTOs.GeneroDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteRefeito.Controllers.GenerosController",
+    "Method": "BuscarGeneroPorId",
+    "RelativePath": "api/Generos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteRefeito.Controllers.GenerosController",
+    "Method": "EditarGeneroExistente",
+    "RelativePath": "api/Generos/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "generoDTO",
+        "Type": "TesteRefeito.DTOs.GeneroDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteRefeito.Controllers.GenerosController",
+    "Method": "DeletarGenero",
+    "RelativePath": "api/Generos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteRefeito.Controllers.StreamingsController",
+    "Method": "ObterTodosStreamings",
+    "RelativePath": "api/Streamings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteRefeito.Controllers.StreamingsController",
+    "Method": "CadastrarStreaming",
+    "RelativePath": "api/Streamings",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "streamingDTO",
+        "Type": "TesteRefeito.DTOs.StreamingDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteRefeito.Controllers.StreamingsController",
+    "Method": "ObterStramingPorId",
+    "RelativePath": "api/Streamings/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteRefeito.Controllers.StreamingsController",
+    "Method": "EditarStreaming",
+    "RelativePath": "api/Streamings/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "streamingDTO",
+        "Type": "TesteRefeito.DTOs.StreamingDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteRefeito.Controllers.StreamingsController",
+    "Method": "ExcluirStreaming",
+    "RelativePath": "api/Streamings/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
