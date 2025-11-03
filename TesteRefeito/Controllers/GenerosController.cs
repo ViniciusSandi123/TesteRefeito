@@ -50,7 +50,7 @@ namespace TesteRefeito.Controllers
             try
             {
                 await _generoService.AdicionarGenero(generoDTO);
-                return Ok("Gênero criado com sucesso");
+                return Ok("Criado com sucesso novo Genero");
             }
             catch (Exception ex)
             {
